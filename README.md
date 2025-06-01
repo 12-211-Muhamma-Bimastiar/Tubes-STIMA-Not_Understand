@@ -14,17 +14,17 @@
 
 Bot otomatis untuk permainan Diamonds dengan strategi greedy<br>
 Terkait permainan dapat dilihat pada pranala [ini](https://drive.google.com/file/d/17_d7sRWhr0TspjS0ZqIIQCnQnElPaeDR/view)<br>
+
 Algoritma greedy yang digunakan sebagai berikut:
 
 1. Bot akan mencari diamond terdekat
-2. Bot akan mengutamakan diamond merah apabila selisihnya dengan diamond biru kurang dari 3 langkah
-3. Bot akan mengambil red button apabila diamond terdekat berada 4 langkah lebih jauh atau lebih dari red button
-4. Bot akan mencari diamond terdekat dengan base ketika inventorynya berisi 4 diamond
-5. Bot kembali ke base saat inventorynya penuh atau waktu hampir habis
-6. Bot mempertimbangkan teleport ketika mencari suatu target dan akan menuju teleport jika jarak menuju tujuan lebih dekat melalui teleport
-7. Bot akan mencoba men-tackle musuh jika jaraknya 2 langkah dan musuh berada di posisi diagonal dari bot
-8. Bot akan mencari diamond lain apabila terdapat musuh berjarak 3 langkah yang searah dengan diamond terdekat
-9. Bot akan menghindari portal jika portal justru menjauhkan bot dengan tujuannya
+2. Bot akan mengutamakan diamond merah apabila selisihnya dengan diamond biru cukup signifikan
+3. Jika menggunakan portal lebih cepat, bot akan memilih lewat portal
+4. Bot akan memilih tombol merah jika jaraknya hanya sedikit lebih jauh dari diamond
+5. Jika inventory penuh atau waktu hampir habis, bot akan kembali ke base
+6. Bot menghindari portal kecuali jika sedang menuju portal sebagai target
+7. Bot akan tackle musuh jika berada dalam jarak 2 langkah secara diagonal
+8. Jika musuh terlalu dekat (jarak 3 langkah), bot akan menghindar dan memilih diamond di arah berbeda
 
 ## File Structures
 ```
