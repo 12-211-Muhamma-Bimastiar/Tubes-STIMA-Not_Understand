@@ -34,9 +34,7 @@ Algoritma greedy yang digunakan sebagai berikut:
 └── src
     ├── __pycache__
     │   └── decode.cpython-311.pyc
-    ├── decode.py
     ├── game
-    │   ├── __init__.py
     │   ├── __pycache__
     │   │   ├── __init__.cpython-311.pyc
     │   │   ├── api.cpython-311.pyc
@@ -44,19 +42,20 @@ Algoritma greedy yang digunakan sebagai berikut:
     │   │   ├── bot_handler.cpython-311.pyc
     │   │   ├── models.cpython-311.pyc
     │   │   └── util.cpython-311.pyc
-    │   ├── api.py
-    │   ├── board_handler.py
-    │   ├── bot_handler.py
     │   ├── logic
-    │   │   ├── __init__.py
     │   │   ├── __pycache__
     │   │   │   ├── __init__.cpython-311.pyc
     │   │   │   ├── base.cpython-311.pyc
     │   │   │   ├── Not_U.cpython-311.pyc
     │   │   │   └── random.cpython-311.pyc
+    │   │   ├── __init__.py
     │   │   ├── base.py
-    │   │   ├── mybot.py
+    │   │   ├── Not_U.py
     │   │   └── random.py
+    │   ├── __init__.py
+    │   ├── api.py
+    │   ├── board_handler.py
+    │   ├── bot_handler.py
     │   ├── models.py
     │   └── util.py
     ├── gitignore
@@ -82,7 +81,7 @@ npm install --global yarn
 ## Setup and Usage
 
 1. Download dan lakukan instalasi game engine dengan mengikuti instruksi pada pranala [berikut](https://docs.google.com/spreadsheets/d/1FJ0SS6AtDuOtYBe7_bViBHV0cmOipCHIhLPDQMhwvlE/edit?gid=0#gid=0)
-2. Clone repository berikut `git clone https://github.com/BryanLauw/Tubes1_tbfoReborn.git`
+2. Clone repository berikut `https://github.com/12-211-Muhamma-Bimastiar/Tubes-STIMA-Not_Understand.git`
 3. Ganti ke root directory folder src dengan perintah `cd src`
 4. Install package python dengan perintah `pip install -r requirement.txt`
 5. Untuk menjalankan bot, nyalakan terlebih dahulu game engine
