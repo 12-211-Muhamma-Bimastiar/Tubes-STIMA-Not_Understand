@@ -29,9 +29,8 @@ Algoritma greedy yang digunakan sebagai berikut:
 ## File Structures
 ```
 *
-├── README.md
 ├── doc
-│   └── tbfoReborn.pdf
+│   └── Not_Understand.pdf
 └── src
     ├── __pycache__
     │   └── decode.cpython-311.pyc
@@ -53,14 +52,17 @@ Algoritma greedy yang digunakan sebagai berikut:
     │   │   ├── __pycache__
     │   │   │   ├── __init__.cpython-311.pyc
     │   │   │   ├── base.cpython-311.pyc
-    │   │   │   ├── mybot.cpython-311.pyc
+    │   │   │   ├── Not_U.cpython-311.pyc
     │   │   │   └── random.cpython-311.pyc
     │   │   ├── base.py
     │   │   ├── mybot.py
     │   │   └── random.py
     │   ├── models.py
     │   └── util.py
+    ├── gitignore
+    ├── decode.py
     ├── main.py
+    ├── README.md
     ├── requirements.txt
     ├── run-bots.bat
     └── run-bots.sh
